@@ -2,5 +2,8 @@
 layout : default
 ---
 <link rel ="stylesheet" href ="{{'/assets/css/styles.css' | relative_url}}">
- {{ content }}
+<div class='content-post'>
+
+    {{ content }}
+</div> 
 <p class="text"> Postado no dia {{ page.date }} na categoria {{ page.categories }} </p>
