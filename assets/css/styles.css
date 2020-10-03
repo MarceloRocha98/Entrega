@@ -1,3 +1,18 @@
 body {
     background-color : green ;
 }
+.logo-img{
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:669px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
