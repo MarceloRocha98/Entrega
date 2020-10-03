@@ -5,13 +5,13 @@ body {
     align-items: center;
 }
 
-ul{
+.content{
     display: flex;
     flex-direction: row;
 }
 
 @media(max-width:669px){
-    ul{
+    .content{
         display: flex;
         flex-direction: column;
     }
