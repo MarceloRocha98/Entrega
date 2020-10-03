@@ -7,6 +7,10 @@ body {
     border-radius: 25px;
 }
 
+.welcome-text{
+    align-self: center;
+}
+
 .content-post{
     color: slategrey;
 }
