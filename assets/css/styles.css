@@ -4,6 +4,7 @@ body {
 .logo-img{
     /* align-items: center; */
     align-self: center;
+    border-radius: 25px;
 }
 
 ul{
