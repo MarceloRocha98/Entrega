@@ -3,9 +3,9 @@ layout : default
 ---
 Capítulo 1. Jekyll, gerador de site estático 5
 <ul >
-    <header > <img src ="{{'/assets/images/logo.jfif | relative_url'}}"> </header >
-{% for post in site . posts %}
-<li > <a href ="{{ post .url  | relative_url }} "> {{ post . title }} </a> </li >
-    <li > <a href ="{{ post .url | relative_url }} "> {{ post . title }} </a> </li >
+    <header > <img src ="{{'/assets/images/logo.jfif' | relative_url}}"> </header >
+{% for post in site.posts %}
+<li > <a href ="{{ post .url  | relative_url }} "> {{ post.title }} </a> </li >
+    <li > <a href ="{{ post .url | relative_url }} "> {{ post.title }} </a> </li >
 {% endfor %}
 </ul >
