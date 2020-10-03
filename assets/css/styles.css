@@ -7,17 +7,21 @@ body {
 }
 
 ul{
-    text-decoration: none;
+    list-style: none;
 }
 .content{
     display: flex;
     flex-direction: row;
     
 }
+
+a{
+    text-decoration: none;
+}
 li{
     margin: 1;
     padding: 2;
-    text-decoration: none;
+   
 }
 
 @media(max-width:669px){
