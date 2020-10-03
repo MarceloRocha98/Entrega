@@ -6,13 +6,18 @@ body {
     align-self: center;
 }
 
+ul{
+    text-decoration: none;
+}
 .content{
     display: flex;
     flex-direction: row;
+    
 }
 li{
     margin: 1;
     padding: 2;
+    text-decoration: none;
 }
 
 @media(max-width:669px){
